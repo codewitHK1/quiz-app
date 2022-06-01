@@ -47,7 +47,7 @@ function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
   function handleAnswer(isCorrect) {
-    if (isCorrect) {
+    if (isCorrect === true) {
       setScore(score + 1);
     }
 
